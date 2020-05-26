@@ -6,3 +6,4 @@ while i > 1:
     factorial *= i
     i -= 1
 print(a, '!=', factorial)
+
