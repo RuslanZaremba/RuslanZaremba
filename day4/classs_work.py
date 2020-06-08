@@ -134,23 +134,23 @@ s = [
 #
 #
 # print(change(s))
-a = [
-    [1, 2, 8],
-    [4, 12, 6],
-    [7, 8, 8]
-]
-b = [
-    [0, 6, 8],
-    [4, 13, 1],
-    [7, 9, 8]
-]
-
-def change_after_diagonal(matrix_a, matrix_b):
-    pass
-
-def change_before_diagonal(matrix_a, matrix_b):
-    index = 0
-    for i in range(len(matrix_a)):
-        for j in range(len(matrix_a[i])):
-            if i == index + 1:
-                matrix_a[i][j],
+# a = [
+#     [1, 2, 8],
+#     [4, 12, 6],
+#     [7, 8, 8]
+# ]
+# b = [
+#     [0, 6, 8],
+#     [4, 13, 1],
+#     [7, 9, 8]
+# ]
+#
+# def change_after_diagonal(matrix_a, matrix_b):
+#     pass
+#
+# def change_before_diagonal(matrix_a, matrix_b):
+#     index = 0
+#     for i in range(len(matrix_a)):
+#         for j in range(len(matrix_a[i])):
+#             if i == index + 1:
+#                 matrix_a[i][j],
