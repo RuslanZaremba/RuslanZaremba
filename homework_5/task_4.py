@@ -1,4 +1,3 @@
-import math
 import random
 
 
@@ -17,21 +16,16 @@ matrix2 = matrix(4)
 ma = matrix1 + matrix2
 print(matrix1)
 print(matrix2)
-print(ma)
 
 
 def sum_matrix(a, b):
-    pass
+    sum_matrix = []
+    for i in range(len(a)):
+        sum_str = []
+        for j in range(len(a[i])):
+            sum_str.append(a[i][j] + b[i][j])
+        sum_matrix.append(sum_str)
+    return sum_matrix
 
 
-m = [1, 1, 1]
-b = [12, 15, 18]
-c = []
-
-for i in range(len(m)):
-    for j in range(len(b)):
-        x = m[i] + b[j]
-        c.append(x)
-print(c)
-
-
+print(sum_matrix(matrix1, matrix2))
