@@ -45,3 +45,8 @@ y=(x6*(x-6)3)/(2*x+1)5
 сделать все буквы большими, иначе сделать все буквы маленькими.
 
 [open task_2_6](https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework_5/task_2_6.py)
+
+## task_3_1
+Создать список учеников. Определить средний балл оценок по всем предметам и вывести иныормацию о учениках чей средний балл выше 4.
+
+[open task_3_1](https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework_5/task_3_1.py)
