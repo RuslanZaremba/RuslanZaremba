@@ -1,3 +1,6 @@
+import json
+
+
 def dict_data(data1, data2, data3):
     spis_keys = []
     spis_keys.extend(data1.keys())
@@ -18,8 +21,9 @@ data2 = {'last_name': 'Viktorov'}
 data3 = {'sur_name': 'Ivaov'}
 
 with open('myfile.txt', 'w') as myfile:
-    print(dict_data(data1, data2, data3), file=myfile)
+    di = dict_data(data1, data2, data3)
+    print(json.dumps(di))
 
 with open('myfile.txt') as myfile:
-    for i in myfile:
-        print(type(i), end='')
+    line = json.loads(myfile)
+    print(line)

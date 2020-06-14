@@ -1,1 +1,0 @@
-{'name': 'sasha', 'last_name': 'Viktorov', 'sur_name': 'Ivaov'}
