@@ -5,7 +5,7 @@
 
 [open](https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework7/task1.py)
 
-##task2
+## task2
 Создать lambda функцию, которая принимает на вход имя и выводит его в формате “Hello, {name}”
 
 [open](https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework7/task_2.py)
