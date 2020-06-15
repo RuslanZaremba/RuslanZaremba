@@ -1,13 +1,29 @@
 def benchmark(func):
-    import time
+    from datetime import datetime
 
     def wrapper():
-        start = time.time()
+        start = datetime.now()
         func()
-        finish = time.time()
-        print('Время выполнения функции: {}'.format(finish-start))
+        finish = datetime.now()
+        print('2 Время выполнения функции: {}'.format(finish - start))
+
     return wrapper
+
+
+def bench(func):
+    def wrapper():
+        print('Второй декоратор')
+        func()
+    return wrapper
+
+
+@bench
 @benchmark
 def hello():
-    print('hello')
+    import random
+    data = [random.randrange(0, 2 ** 100) for i in range(0, 2 ** 20)]
+    total = sorted(data)
+    return total
+
+
 hello()

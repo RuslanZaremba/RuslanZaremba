@@ -1,3 +1,3 @@
 li = ['Ruslan', 'Olga', 'Tanya']
-result = map(lambda x: 'Hello, {}'.format(x), li)
-print(list(result))
+result = list(map(lambda x: f"Hello, {x}", li))
+print(result)
