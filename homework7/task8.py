@@ -1,4 +1,3 @@
 lines = ['asd', 'wqe', 'aasfq']
-for i in range(len(lines)):
-    s = list(map(lambda i: '{} - {}'.format(i, lines[i]), lines))
-    print(s)
+func = [(lambda i, y: '{}-{}'.format(i, y))(i, lines[i]) for i in range(len(lines))]
+print(func)
