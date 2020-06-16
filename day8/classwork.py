@@ -36,7 +36,7 @@
 #     my_file.writelines(['hello\n', 'husein'])
 #
 # Дописывание в конец файла
-# with open('test.txt', 'a') as my_file:
-#     my_file.writelines(['privet\n', 'mir'])
+with open('test.txt', 'a') as my_file:
+    my_file.writelines(['privet\n', 'mir'])
 #
 #
