@@ -18,9 +18,9 @@
 # my_file.close()
 #
 # Чтение всех строк файла
-# my_file = open('test.txt', encoding='UTF-8')
-# print(my_file.readlines())
-# my_file.close()
+my_file = open('test.txt', encoding='UTF-8')
+print(my_file.readlines())
+my_file.close()
 #
 # Открытие с помощью with тоже что и выше
 # with open('test.txt', encoding='UTF-8') as my_file:
