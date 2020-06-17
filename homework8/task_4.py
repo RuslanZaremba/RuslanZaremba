@@ -28,4 +28,4 @@ with open('task4.txt') as file:
     with open('task4_new.txt', 'w') as new_file:
         for i in range(len(file.read())-1):
             print(i)
->>>>>>> 6958e56e4d9a9af4bef7408ec55504476ec24576
+
