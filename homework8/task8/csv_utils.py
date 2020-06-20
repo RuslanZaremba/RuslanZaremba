@@ -34,6 +34,7 @@ def remover(file, position=None):
 
     with open(file, 'w') as writeFile:
         writer = csv.writer(writeFile)
-        writer.writerows(lines[:-1]) if position is None else writer.writerows(lines)
-
-
+        if position is None:
+            writer.writerows(lines[:-1])
+        else:
+            writer.writerows(lines)

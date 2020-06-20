@@ -1,0 +1,2 @@
+def write():
+    import csv
