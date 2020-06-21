@@ -87,18 +87,18 @@ e) весь файл.
 [open](https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework8/task_14.py)
 
 ## hw_task_1_1
-
+ДОМАШНЕЕ ЗАДАНИЕ!
 1. Создать csv файл с данными следующей структуры: 
 Имя, Фамилия, Возраст. Создать отчетный файл с информацией по количеству людей 
 входящих в ту или иную возрастную группу. Возрастные группы: 
 1-12, 13-18, 19-25, 26-40, 40+. 
 
-[open]()
+[open](https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework8/hw_task_1_1.py)
 
 ## hw_task_1_2
-
+ДОМАШНЕЕ ЗАДАНИЕ!
 2. Создать csv файл с данными о ежедневной погоде. Структура:  
 Дата, Место, Градусы, Скорость ветра. 
 Найти среднюю погоду(скорость ветра и градусы) для Минск за последние 7 дней.
 
-[open]()
+[open](https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework8/task_1_2.py)
