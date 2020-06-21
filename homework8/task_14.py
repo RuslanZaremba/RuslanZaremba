@@ -7,8 +7,7 @@ users = [
 ]
 
 with open('text_files/task_14.csv', 'w', newline='') as file_csv:
-    colomns = ['name', 'age']
-    writer = csv.DictWriter(file_csv, fieldnames=colomns)
+    writer = csv.DictWriter(file_csv, fieldnames=list(users[0].keys())
     writer.writeheader()
     writer.writerows(users)
 
