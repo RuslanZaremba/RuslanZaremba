@@ -102,3 +102,9 @@ e) весь файл.
 Найти среднюю погоду(скорость ветра и градусы) для Минск за последние 7 дней.
 
 [open](https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework8/task_1_2.py)
+
+hw_task_1_3
+ДОМАШНЕЕ ЗАДАНИЕ!
+3. Дан файл, содержащий различные даты. Каждая дата - это число, месяц и год. Найти самую раннюю дату. 
+
+[open]()https://github.com/RuslanZaremba/RuslanZaremba/blob/master/homework8/task_1_3.py
