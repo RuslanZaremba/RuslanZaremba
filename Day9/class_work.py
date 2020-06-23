@@ -42,8 +42,10 @@ class Student(Person):
 
     @teacher.setter
     def teacher(self, teacher):
-        result = {"name": teacher.firstname, "lastname": teacher.lastname, 'surname': teacher.surname,
-                  'age': teacher.age}
+        result = {"name": teacher.firstname,
+                  "lastname": teacher.lastname,
+                  "surname": teacher.surname,
+                  "age": teacher.age}
         self.person.append(result)
 
 
