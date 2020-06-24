@@ -16,22 +16,26 @@ class Pet:
     def birthday(self, year=1):
         self.age += year
 
+
 class Dog(Pet):
 
     def bark(self):
         print('Gav-Gav')
+
 
 class Cat(Pet):
 
     def meow(self):
         print('Meow-Meow')
 
+
 class Parrot(Pet):
 
     def fly(self):
         print('Parrot is flying')
 
-dog = Dog('Jack-Russel',3,'Olga')
+
+dog = Dog('Jack-Russel', 3, 'Olga')
 print(f"{dog.name}, {dog.age}, {dog.master}")
 dog.run()
 dog.jump()

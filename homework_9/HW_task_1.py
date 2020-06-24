@@ -67,6 +67,13 @@ class Person:
             self.communication[status].append(name)
 
     def find_communication(self, status):
+        """
+        Ищет связи по статусу
+        :param status: например wife, friends
+        :type: str
+        :return: список имен
+        :type: list
+        """
         status = status.lower()
         print(self.communication.get(status))
 

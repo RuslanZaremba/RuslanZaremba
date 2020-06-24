@@ -20,7 +20,7 @@ class Car:
 
     def reverce(self):
         if self.__speed > 0:
-            self.__speed = -(self.__speed)
+            self.__speed *= -1
 
 
 car = Car('audi', 'tt', 2020)
