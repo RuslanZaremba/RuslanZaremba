@@ -5,6 +5,6 @@ class MyTime:
         self.seconds = seconds
 
 
-my_time_inp=MyTime(input('Введите время: '))
+my_time_inp = MyTime(input('Введите время: '))
 my_time = MyTime()
 print(my_time.hours)
