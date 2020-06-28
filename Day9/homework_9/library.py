@@ -27,7 +27,7 @@ book = Library(
 )
 book.add(sec={'name': 'Mother', 'autor': 'Esenin', 'genre': 'poem', 'date': 1895})
 # print(book.data)
-# print(book.find(1900))
+print(book.find(1900))
 # book.deleter('Mumu')
 print(book.data)
-print(book.sort(name))
+
