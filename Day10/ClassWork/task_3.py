@@ -66,6 +66,10 @@ class Cat(Pet):
 
 
 class Parrot(Pet):
+    def __init__(self, name, age, master, weight, height, species):
+        super().__init__(name, age, master, weight, height)
+        self.species = species
+
     def change_weight(self, increase_weight=0.05):
         self.weight += increase_weight
 
@@ -85,7 +89,7 @@ class Parrot(Pet):
             print('Parrot is flying')
 
 
-parrot = Parrot('Gosha', 1, 'Ruslan', 0.1, 2)
+parrot = Parrot('Gosha', 1, 'Ruslan', 0.2, 2, 'popugai')
 
 parrot.fly()
 parrot.change_weight()
