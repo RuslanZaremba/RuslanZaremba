@@ -1,9 +1,9 @@
 class Book:
     def __init__(self, maker, cost, year, list_count):
         try:
-            if maker == str(maker):
+            if maker is not str:
                 self.maker = maker
-        except TypeError:
+        except TypeError as err:
             print(f"Maker должно быть стр.")
         self.cost = float(cost)
         self.year = int(year)
