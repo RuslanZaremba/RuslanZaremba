@@ -1,6 +1,6 @@
 import re
 
-# print(re.findall('^(\w+)', 'AV Analys Vidhya AV'))
+print(re.findall('^(\w+)', 'AV Analys Vidhya AV'))
 
 # print(re.findall(r'\b\w{2}', 'AV Analys Vidhya AV'))
 
