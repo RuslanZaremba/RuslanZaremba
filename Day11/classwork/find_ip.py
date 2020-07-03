@@ -1,3 +1,4 @@
 import re
+
 string = '255.255.255.255 240.0.0.0 99.198.122.146 256.256.256.256 192.88.99.0'
-print(re.findall(r'\d{1,3}[0-255].', string))
+print(re.findall(r'us(?:[0-2][0-5][0-5].){4}', string))
