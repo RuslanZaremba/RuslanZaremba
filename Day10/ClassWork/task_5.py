@@ -47,5 +47,7 @@ class MyTime:
 
 
 a = MyTime('0-80-70')
+b = MyTime(a)
 print(a.string)
 print(a)
+# print(b.string)

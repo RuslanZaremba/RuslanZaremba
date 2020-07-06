@@ -46,8 +46,5 @@ class MyTime:
     def __str__(self):
         return f"{self.hours}-{self.minutes}-{self.seconds}"
 
-b = MyTime(2,3,4)
-a = MyTime(b)
+a = MyTime('4-5-4')
 print(a)
-b = MyTime(a)
-print(b)
