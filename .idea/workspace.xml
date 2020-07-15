@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a63257f7-3844-4353-bea2-c9fbc5f6b0b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day12 SQL/homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12 SQL/classwork/classwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day12 SQL/classwork/classwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12 SQL/classwork/example.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +47,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -210,7 +215,11 @@
       <workItem from="1594279312176" duration="4492000" />
       <workItem from="1594323058187" duration="515000" />
       <workItem from="1594323648128" duration="604000" />
-      <workItem from="1594324682459" duration="898000" />
+      <workItem from="1594324682459" duration="1206000" />
+      <workItem from="1594369658358" duration="667000" />
+      <workItem from="1594389237815" duration="7344000" />
+      <workItem from="1594507909820" duration="921000" />
+      <workItem from="1594557953665" duration="782000" />
     </task>
     <servers />
   </component>
@@ -238,22 +247,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594210019919" />
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1594284103847">
+    <state width="1190" height="302" key="GridCell.Tab.0.bottom" timestamp="1594508155739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594284103847" />
-    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1594284103847">
+    <state width="1190" height="302" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594508155739" />
+    <state width="1190" height="302" key="GridCell.Tab.0.center" timestamp="1594508155739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594284103847" />
-    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1594284103847">
+    <state width="1190" height="302" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594508155739" />
+    <state width="1190" height="302" key="GridCell.Tab.0.left" timestamp="1594508155739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594284103847" />
-    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1594284103847">
+    <state width="1190" height="302" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594508155739" />
+    <state width="1190" height="302" key="GridCell.Tab.0.right" timestamp="1594508155739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594284103847" />
+    <state width="1190" height="302" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594508155739" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1594104847628">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -262,6 +271,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594325605643" />
+    <state x="98" y="18" key="com.intellij.database.dbimport.ImportDialog" timestamp="1594391122311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="98" y="18" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.728@0.0.1366.728" timestamp="1594391122311" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1594283055563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
