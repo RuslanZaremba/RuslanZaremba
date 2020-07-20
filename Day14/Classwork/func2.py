@@ -6,5 +6,7 @@ def validate_args(x, y):
         message += f'The second argument type should be int or float. Now it is{type(y)}.\n'
     if message:
         raise Exception(message)
+    return x + y
 
-#print(validate_args(int, int))
+
+print(validate_args(2, 2))
