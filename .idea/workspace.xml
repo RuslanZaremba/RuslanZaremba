@@ -20,21 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a63257f7-3844-4353-bea2-c9fbc5f6b0b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day16/flask_helloworld.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/post_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/task_2/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/task_2/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/task_2/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/task_2/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/task_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day16/передача переменных во view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RuslanZaremba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RuslanZaremba.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/inner_in_typez_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/task_6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12 SQL/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day12 SQL/homework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12 SQL/homework/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day12 SQL/homework/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day15/Classwork/myfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/Classwork/myfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +73,7 @@
       <recent name="C:\Users\Таня\PycharmProjects\RuslanZaremba" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.передача переменных во view">
+  <component name="RunManager" selected="Python.task_5">
     <configuration name="передача переменных во view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RuslanZaremba" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="inner_in_typez_view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RuslanZaremba" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,34 +126,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day12 SQL/homework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day12 SQL/homework/functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="myfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="RuslanZaremba" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day15/Classwork" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day15/Classwork/myfile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day16/inner_in_typez_view.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,13 +162,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RuslanZaremba" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day16/task_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task_5" />
+        <item itemvalue="Python.inner_in_typez_view" />
         <item itemvalue="Python.передача переменных во view" />
         <item itemvalue="Python.task_4" />
         <item itemvalue="Python.flask_helloworld" />
-        <item itemvalue="Python.myfile" />
-        <item itemvalue="Python.functions" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +230,7 @@
       <workItem from="1594999415930" duration="5323000" />
       <workItem from="1595019721410" duration="2676000" />
       <workItem from="1595226678480" duration="17824000" />
-      <workItem from="1595406887814" duration="8621000" />
+      <workItem from="1595406887814" duration="10984000" />
     </task>
     <servers />
   </component>
@@ -269,22 +258,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594210019919" />
-    <state width="1322" height="205" key="GridCell.Tab.0.bottom" timestamp="1595417526537">
+    <state width="623" height="198" key="GridCell.Tab.0.bottom" timestamp="1595419530934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="205" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595417526537" />
-    <state width="1322" height="205" key="GridCell.Tab.0.center" timestamp="1595417526537">
+    <state width="623" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595419530934" />
+    <state width="623" height="198" key="GridCell.Tab.0.center" timestamp="1595419530934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="205" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595417526537" />
-    <state width="1322" height="205" key="GridCell.Tab.0.left" timestamp="1595417526537">
+    <state width="623" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595419530934" />
+    <state width="623" height="198" key="GridCell.Tab.0.left" timestamp="1595419530934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="205" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595417526537" />
-    <state width="1322" height="205" key="GridCell.Tab.0.right" timestamp="1595417526537">
+    <state width="623" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595419530934" />
+    <state width="623" height="198" key="GridCell.Tab.0.right" timestamp="1595419530934">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="205" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595417526537" />
+    <state width="623" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595419530934" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1595006677572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -346,6 +335,7 @@
     <SUITE FILE_PATH="coverage/RuslanZaremba$class_task_sasha_masha.coverage" NAME="class_task_sasha_masha Coverage Results" MODIFIED="1594282662553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day2" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$homework.coverage" NAME="homework Coverage Results" MODIFIED="1595239204944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day12 SQL" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$HW_task_2.coverage" NAME="HW_task_2 Coverage Results" MODIFIED="1593022003788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_9" />
+    <SUITE FILE_PATH="coverage/RuslanZaremba$inner_in_typez_view.coverage" NAME="inner_in_typez_view Coverage Results" MODIFIED="1595418147443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day16" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$class_work.coverage" NAME="class_work Coverage Results" MODIFIED="1592850587781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day9" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$classwork__1_.coverage" NAME="classwork (1) Coverage Results" MODIFIED="1594809892692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day14/Classwork" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$teat1.coverage" NAME="teat1 Coverage Results" MODIFIED="1594899109620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day14/Classwork" />
@@ -358,8 +348,8 @@
     <SUITE FILE_PATH="coverage/RuslanZaremba$test_math.coverage" NAME="test_math Coverage Results" MODIFIED="1594905891168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day14/Classwork" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$hw_task_1_1.coverage" NAME="hw_task_1_1 Coverage Results" MODIFIED="1592852321842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework8" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$func2.coverage" NAME="func2 Coverage Results" MODIFIED="1594905245297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day14/Classwork" />
-    <SUITE FILE_PATH="coverage/RuslanZaremba$task_5.coverage" NAME="task_5 Coverage Results" MODIFIED="1593457007227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day10/ClassWork" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1594906797728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day14/Classwork" />
+    <SUITE FILE_PATH="coverage/RuslanZaremba$task_5.coverage" NAME="task_5 Coverage Results" MODIFIED="1595419530917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day16" />
     <SUITE FILE_PATH="coverage/RuslanZaremba$debugger.coverage" NAME="debugger Coverage Results" MODIFIED="1593622866250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day11/classwork" />
   </component>
 </project>
