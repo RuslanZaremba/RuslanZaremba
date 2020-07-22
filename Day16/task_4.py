@@ -6,8 +6,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def date():
-    return f'{datetime.today()}'
+    date = datetime.strftime(datetime.today(), "%Y/%m/%d")
+    return f'{date}'
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, port=8001)

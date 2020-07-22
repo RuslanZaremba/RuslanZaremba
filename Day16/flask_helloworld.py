@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello():
     return 'Hello world!'
 
-
+@app.route('/world')
 def world():
     return 'World'
 
@@ -15,4 +15,4 @@ def world():
 if __name__ == '__main__':
     app.add_url_rule('/hello', 'hello', hello)
     print(app.url_map)
-    app.run()
+    app.run(debug=True)
